@@ -1,10 +1,10 @@
-!pip install PyPDF2
 
+import PyPDF2
 import glob
 from PyPDF2 import PdfMerger
 import streamlit as st
 import time
-import PyPDF2
+
 
 
 st.markdown(" ### :darkred[Pdf Birleştirici]")
