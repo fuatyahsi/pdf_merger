@@ -10,7 +10,7 @@ import time
 st.markdown(" ### :darkred[Pdf Birleştirici]")
 
 
-
+kullanıcı adı= ""  ## optinal
 if kullanıcı_adı:
     uploaded_files = st.file_uploader("Birleştirmek istediğiniz pdf dosyalarını seçiniz", accept_multiple_files=True)
 
